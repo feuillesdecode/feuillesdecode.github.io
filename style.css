@@ -1,0 +1,441 @@
+html {
+    scroll-padding-top: 70px; 
+  }
+
+body {
+    background-color: #f5f6f7;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: #f5f6f7;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* General Styles */
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dark-section {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.light-section {
+    color: black;
+    background-color: #f5f6f7;
+}
+
+.title-section {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.description-section {
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
+.text-section {
+    font-size: 1.2rem;
+}
+
+.btn-info {
+    font-size: 1.1rem;
+    margin: 20px;
+}
+
+.black-text {
+    color: black;
+}
+
+.white-text {
+    color: white;
+}
+
+/* Hero Section */
+
+.hero {
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal {
+    padding: 3rem;
+}
+
+.hero-profile-image {
+    width: 200px;
+    height: 200px;       
+    margin: 20px;
+ }
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: #615151;
+}
+
+/* About me */
+
+.about-me {
+    height: 500px;
+    padding: 10px;
+}
+
+.about-me .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Experiencia */
+
+.experience {
+    padding: 40px 40px 60px 40px;
+}
+
+.experience .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.experience .columna:hover {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.experience i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.experience-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges-container {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;
+}
+
+/* Proyectos */
+
+.recent-projects {
+    padding: 40px;
+}
+
+.recent-projects img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.projects-container {
+    padding-top: 40px;
+    margin-bottom: 60px;
+}
+
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.overlay .icons-container {
+    display: flex;
+}
+
+.overlay i {
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+}
+
+.project {
+    position: relative;
+}
+
+.project:hover img {
+    opacity: 0.2;
+}
+
+.project:hover .overlay {
+    opacity: 1;
+}
+
+/* Articles */
+
+.articles {
+    min-height: 500px;
+    padding: 30px;
+}
+
+.articles .card {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.articles .card-header {
+    font-weight: bold;
+}
+
+/* Reviews */
+
+.reviews {
+    padding: 40px 40px 120px 40px;
+}
+
+.reviews .carousel {
+    max-width: 800px;
+}
+
+.carousel-item {
+    height: 400px;
+}
+
+.carousel-item .container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.review-image {
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 20px 10px;
+}
+
+.review-text {
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.review-info {
+    font-weight: bold;
+    text-align: center;
+}
+
+.review-info p {
+    margin-bottom: 0;
+}
+
+.customer {
+    font-size: 1.2rem;
+}
+
+.role {
+    font-size: 0.9rem;
+    color: #656060;
+}
+
+/* Contact */
+
+.contact {
+    margin-top: 80px;
+}
+
+.contact .container {
+    max-width: 1200px;
+    min-height: 200px;
+    padding: 20px;   
+}
+
+.contact .rectangle {
+    margin-top: -5rem;  
+    background-color: rgb(24 143 180);
+    box-shadow: 0px 1px 4px 1px #f5f6f7;
+    border-radius: 10px;
+}
+
+.contact .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contact .description {
+    color: white;
+    font-size: 1.25rem;
+}
+
+.contact button {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact button:hover {
+    background-color: #f5f6f7;
+    color:black;
+}
+
+.contact button:hover i {
+    color: black;
+}
+
+/* Footer */
+
+.footer {
+    min-height: 500px;
+}
+
+.footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-text {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.social-media-icons i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.social-media-icons a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.social-media-icons a:hover {
+     background-color: white;
+     border: 2px solid rgb(13, 110, 253);
+}
+
+.social-media-icons a:hover i {
+    color: black;
+}
+
+.copyright {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 40px;
+}
+
+.copyright a {
+    font-size: 15px;
+    color: #aeaeae;
+    text-decoration: none;
+}
+
+.images {
+    border-top: 1px solid #aeaeae;
+    padding-top: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 800px) {
+    .review-image {
+        height: 120px;
+        width: 120px;
+    }
+    
+    .review-text {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }   
+    .navbar {
+        position: static;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .overlay p {
+        font-size: 18px;
+    }    
+
+    .overlay i {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .hero-bottom-image {
+        max-width: 600px;
+    }
+}

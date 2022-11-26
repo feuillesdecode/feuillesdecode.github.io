@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <meta name="author" content="@feuillesdecode">
+    <meta name="description" content="Portafolio de Desarrollo">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React, Java, Spring">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title -->
+    <title>Roxana @feuillesdecode | Software Developer</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Bootstrap Icons  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet"> 
+  </head>            
+  <body> 
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-light sticky-top" role="navigation">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about-me">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reviews">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section Hero -->
+    <section class="hero align-items-strech">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-profile-image rounded-circle" src="images/hero-profile.png" alt="Imagen de Perfil">
+        <h1>Hola, soy Roxana!</h1>
+        <h2> Software Engineer comprometida en crear soluciones</h2>
+      </div>
+      <div class="hero-bottom">
+        <img class="hero-bottom-image img-fluid" src="images/hero-bottom.png" alt="Monitor, celular, código, nube, símbolos de configuración.">        
+      </div>
+    </section>
+
+    <!-- Section About Me -->
+    <section id="about-me" class="about-me dark-section">
+      <div class="contenedor">
+        <h2 class="title-section">Qué ofrezco</h2>
+        <p class="text-section">
+          <i class="bi bi-rocket-takeoff"></i>
+          Crear productos increíbles que satisfagan las necesidades de tus clientes y 
+          les brinden una experiencia agradable.         
+        </p>
+        <p class="text-section">
+          <i class="bi bi-rocket-takeoff"></i>
+          Brindarte las mejores soluciones a los desafíos de tu negocio. 
+        </p>
+        <p class="text-section">
+          <i class="bi bi-rocket-takeoff"></i>
+          Compromiso con los tiempos acordados
+        </p>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="experience light-section">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Development -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experience-title">Development</p>
+            <p> 
+              Te ayudo a materializar tus ideas en excelentes productos
+              con las tecnologías actuales seleccionadas y adaptadas a las necesidades de tu negocio. 
+              Estas son algunas de las tecnologías que he utilizado en proyectos y que manejo actualmente. 
+             </p>
+            <div class="badges-container">
+              <span class="badge bg-primary">HTML</span>
+              <span class="badge bg-primary">CSS</span>
+              <span class="badge bg-primary">JavaScript</span>
+              <span class="badge bg-primary">React</span>
+              <span class="badge bg-primary">Java</span>
+              <span class="badge bg-primary">Spring</span>             
+            </div>
+          </div>
+          <!-- Project -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experience-title">Soporte</p>
+            <p> 
+              Obtendrás soluciones garantizadas con el soporte de un buen diseño desde el comienzo, pruebas de testing 
+              que favorecen los mejores resultados y la gestión de tu proyecto con las herramientas adecuadas. 
+              Manteniendo una comunicación abierta y receptiva.
+             </p>
+            <div class="badges-container">
+              <span class="badge bg-primary">UML</span>
+              <span class="badge bg-primary">Patterns</span>
+              <span class="badge bg-primary">Jest</span>
+              <span class="badge bg-primary">Jira</span>
+              <span class="badge bg-primary">Slack</span>
+              <span class="badge bg-primary">GitHub</span>            
+            </div>
+          </div>
+          <!-- Learning -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experience-title">Learning</p>
+            <p>Me gradué en la 
+              <a href="https://utn.edu.ar/" target="_blank" rel="noopener noreferrer" class="link-primary">
+                Universidad Tecnológica Nacional
+              </a>
+              como Ingeniera en Sistemas de Información y Analista de Sistemas. 
+              Además, cursé diferentes tecnologías en plataformas e-learning reconocidas y continúo aprendiendo!
+            </p>
+            <div class="badges-container"> 
+              <span class="badge bg-primary">UTN</span>     
+              <span class="badge bg-primary">Software Engineer</span>
+              <span class="badge bg-primary">Systems Analyst </span>                   
+              <span class="badge bg-primary">edX</span>  
+              <span class="badge bg-primary">freeCodeCamp</span>                
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="reviews light-section">
+      <h2 class="title-section">Reviews</h2>
+      <!-- Carousel -->
+      <div id="reviews-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="review-image rounded-circle" src="images/chad-hurley.jpg" alt="">
+              <p class="review-text">Cuando empieces a construir un producto, no asumas que sabes todas las respuestas. Escucha a la comunidad y adáptate a ella.</p> 
+              <div class="review-info">
+                <p class="customer">Chad Hurley</p>
+                <p class="role">Co-Founder de YouTube</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="review-image rounded-circle" src="images/tesla.jpg" alt="">
+              <p class="review-text">Creo que este es el mejor consejo: piensa constantemente cómo podrías hacer mejor las cosas.</p> 
+              <div class="review-info">
+                <p class="customer">Elon Musk</p>
+                <p class="role">CEO de Twitter, Co-Founder de Tesla y SpaceX</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="review-image rounded-circle" src="images/meta.jpg" alt="">
+              <p class="review-text">No construimos servicios para hacer dinero; hacemos dinero para construir mejores servicios.</p> 
+              <div class="review-info">
+                <p class="customer">Mark Zuckerberg</p>
+                <p class="role">CEO de Meta</p>
+              </div>
+            </div>
+          </div>          
+          <div class="carousel-item">
+            <div class="container">
+              <img class="review-image rounded-circle" src="images/netflix.jpg" alt="">
+              <p class="review-text">La mayoría de ideas emprendedoras pueden sonar alocadas, estúpidas y poco rentables, pero luego serán un éxito.</p> 
+              <div class="review-info">
+                <p class="customer">Reed Hastings</p>
+                <p class="role">Co-Founder de Netflix</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="review-image rounded-circle" src="images/twitter.jpg" alt="">
+              <p class="review-text">El mundo se puede cambiar en 140 caracteres.</p> 
+              <div class="review-info">
+                <p class="customer">Jack Dorsey</p>
+                <p class="role">Co-Founder de Twitter y CEO de Square</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#reviews-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#reviews-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact dark-section">
+      <div class="container">
+        <div id="contact" class="container text-center rectangle d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 title-section">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 description">
+              Contáctame para iniciar tu proyecto y haremos que tu visión sea realidad
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:roxana.itech@gmail.com?subject=Nuevo%20Proyecto%20&body=Hola%20Roxana,%0D%0" 
+                target="_blank" rel="noopener noreferrer" > 
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i> 
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- Footer -->
+    <footer class="dark-section d-flex flex-column align-items-center justify-content-center">
+      <img src="images/logo-white.png" alt="" class="footer-logo">
+      <p class="footer-text text-center">
+        Hoy es un gran día<br>para comenzar a crear
+      </p>
+      <!-- Social Media -->
+      <div class="social-media-icons d-flex flex-wrap align-items-center justify-content-center">
+        <a href="mailto:roxana.itech@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+        <a href="http://linkedin.com/in/roxana-software-engineer/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="http://github.com/feuillesdecode" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+      </div>
+      <!-- Copyright -->
+      <div  class="copyright">&#169; 2022 
+        <a href="http://github.com/feuillesdecode" target="_blank" rel="noopener noreferrer">
+          FEUILLESDECODE
+        </a>        
+      </div>
+      <!-- Copyright Images -->
+      <div class="copyright images">
+        Atribuciones<br> 
+        <i class="bi bi-images"></i>               
+        <a href="https://unsplash.com/@alexbemore?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">
+        Alexander Shatov</a>, 
+        <a href="https://unsplash.com/@austin__ramsey?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">
+        Austin Ramsey</a>,
+        <a href="https://unsplash.com/@maria_shalabaieva?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">
+        Mariia Shalabaieva</a> y
+        <a href="https://unsplash.com/@cgower?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">
+        Christopher Gower</a>
+        en  
+        <a href="https://unsplash.com/es?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" ref="noopener noreffer">
+        Unsplash
+        </a>
+        |
+        <a href="http://twitter.com/Kmeron" target="_blank" rel="noreferrer nofollow">@Kmeron</a>
+        en
+        <a href="https://www.flickr.com/photos/leweb3/7408453322" target="_blank" rel="noopener noreferrer">
+        Flickr (CC BY 2.0)</a>
+        |
+        Image by <a href="https://www.freepik.com/free-vector/desktop-smartphone-app-development_10276838.htm" target="_blank" rel="noopener noreferrer">
+        Freepik</a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
