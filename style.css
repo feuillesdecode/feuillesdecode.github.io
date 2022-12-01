@@ -6,17 +6,6 @@ body {
     background-color: #f5f6f7;
 }
 
-/* Navigation Bar */
-
-.navbar {
-    background-color: #f5f6f7;
-}
-
-.navbar-collapse {
-    align-items: center;
-    justify-content: space-between;
-}
-
 /* General Styles */
 
 h1 {
@@ -67,6 +56,21 @@ section {
 
 .white-text {
     color: white;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: #f5f6f7;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 40px;
 }
 
 /* Hero Section */
